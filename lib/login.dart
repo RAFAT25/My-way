@@ -12,7 +12,8 @@ class Login extends StatelessWidget {
             hintText: "Email",
           )),
           const SizedBox(
-            height: 20,
+            
+            height: 50,
           ),
           TextFormField(
               decoration: const InputDecoration(
