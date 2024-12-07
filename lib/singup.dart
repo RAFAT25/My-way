@@ -6,10 +6,12 @@ class SingUp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+        body: SafeArea(
+      child: Column(
         children: [
           Container(
-            child: TextField(
+            padding: const EdgeInsets.all(10),
+            child: const TextField(
               decoration: InputDecoration(
                 hintText: "Email",
                 border: OutlineInputBorder(
@@ -21,7 +23,8 @@ class SingUp extends StatelessWidget {
             ),
           ),
           Container(
-            child: TextField(
+            padding: const EdgeInsets.all(10),
+            child: const TextField(
               decoration: InputDecoration(
                 hintText: "Password",
                 border: OutlineInputBorder(
@@ -32,8 +35,12 @@ class SingUp extends StatelessWidget {
               ),
             ),
           ),
+          Container(
+              padding: const EdgeInsets.all(10),
+              child:
+                  FilledButton(onPressed: () {}, child: const Text("انشاء"))),
         ],
       ),
-    );
+    ));
   }
 }
