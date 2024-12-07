@@ -8,31 +8,30 @@ class SingUp extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-         Container(
-          child:TextField(
-            decoration: InputDecoration(
-              hintText: "Email",
-              
-              border: OutlineInputBorder(
-                borderSide: BorderSide(
-                  color: Colors.black,
+          Container(
+            child: TextField(
+              decoration: const InputDecoration(
+                hintText: "Email",
+                border: OutlineInputBorder(
+                  borderSide: BorderSide(
+                    color: Colors.teal,
+                  ),
                 ),
               ),
             ),
           ),
-         ),
-         Container(
-          child:TextField(
-            decoration: InputDecoration(
-              hintText: "Password",
-              border: OutlineInputBorder(
-                borderSide: BorderSide(
-                  color: Colors.black,
+          Container(
+            child: TextField(
+              decoration: const InputDecoration(
+                hintText: "Password",
+                border: OutlineInputBorder(
+                  borderSide: BorderSide(
+                    color: Colors.black,
+                  ),
                 ),
               ),
             ),
           ),
-         ),
         ],
       ),
     );
