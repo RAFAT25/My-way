@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myway/singup.dart';
 
 class myhome extends StatelessWidget {
   const myhome({super.key});
@@ -9,7 +10,10 @@ class myhome extends StatelessWidget {
       body: Column(
         children: [
           Center(
-            child: Text(''),
+            child: ElevatedButton(
+              onPressed: () => SingUp(),child: Text("go"),
+            
+            ),
           )
         ],
       ),
