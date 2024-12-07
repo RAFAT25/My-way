@@ -40,7 +40,7 @@ class SingUp extends StatelessWidget {
               child: FilledButton(
                   onPressed: () {},
                   child: const Text(
-                    "انشاء",
+                    "save",
                     style: TextStyle(color: Colors.yellow),
                   ))),
         ],
