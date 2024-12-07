@@ -16,7 +16,7 @@ class SingUp extends StatelessWidget {
                 hintText: "Email",
                 border: OutlineInputBorder(
                   borderSide: BorderSide(
-                    color: Colors.red,
+                    color: Colors.blue,
                   ),
                 ),
               ),
@@ -37,8 +37,12 @@ class SingUp extends StatelessWidget {
           ),
           Container(
               padding: const EdgeInsets.all(10),
-              child:
-                  FilledButton(onPressed: () {}, child: const Text("انشاء"))),
+              child: FilledButton(
+                  onPressed: () {},
+                  child: const Text(
+                    "انشاء",
+                    style: TextStyle(color: Colors.yellow),
+                  ))),
         ],
       ),
     ));
