@@ -10,11 +10,11 @@ class SingUp extends StatelessWidget {
         children: [
           Container(
             child: TextField(
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 hintText: "Email",
                 border: OutlineInputBorder(
                   borderSide: BorderSide(
-                    color: Colors.teal,
+                    color: Colors.red,
                   ),
                 ),
               ),
@@ -22,7 +22,7 @@ class SingUp extends StatelessWidget {
           ),
           Container(
             child: TextField(
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 hintText: "Password",
                 border: OutlineInputBorder(
                   borderSide: BorderSide(
