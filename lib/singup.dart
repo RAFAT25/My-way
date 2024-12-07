@@ -12,6 +12,12 @@ class SingUp extends StatelessWidget {
           child:TextField(
             decoration: InputDecoration(
               hintText: "Email",
+              
+              border: OutlineInputBorder(
+                borderSide: BorderSide(
+                  color: Colors.black,
+                ),
+              ),
             ),
           ),
          ),
@@ -19,6 +25,11 @@ class SingUp extends StatelessWidget {
           child:TextField(
             decoration: InputDecoration(
               hintText: "Password",
+              border: OutlineInputBorder(
+                borderSide: BorderSide(
+                  color: Colors.black,
+                ),
+              ),
             ),
           ),
          ),
