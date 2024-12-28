@@ -11,7 +11,7 @@ class myhome extends StatelessWidget {
         children: [
           Center(
             child: ElevatedButton(
-              onPressed: () => SingUp(),child: Text("go"),
+              onPressed: () => const SingUp(),child: Text("go"),
             
             ),
           )
